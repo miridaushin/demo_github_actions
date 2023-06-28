@@ -1,5 +1,6 @@
 name: Get User Inputs
-
+on:
+ workflow_dispatch:
 jobs:
   get-inputs:
     runs-on: ubuntu-latest
